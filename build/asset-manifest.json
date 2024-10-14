@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59f34bc7.css",
+    "main.js": "/static/js/main.bf45d32c.js",
+    "static/js/453.1c688882.chunk.js": "/static/js/453.1c688882.chunk.js",
+    "static/media/avatar.png": "/static/media/avatar.196847f1f49ab6e50fd2.png",
+    "static/media/Comfortaa-Regular.ttf": "/static/media/Comfortaa-Regular.886fcced57daea5944e7.ttf",
+    "static/media/SophiaFrancesca.ttf": "/static/media/SophiaFrancesca.803d6bf916c719f3dd08.ttf",
+    "index.html": "/index.html",
+    "main.59f34bc7.css.map": "/static/css/main.59f34bc7.css.map",
+    "main.bf45d32c.js.map": "/static/js/main.bf45d32c.js.map",
+    "453.1c688882.chunk.js.map": "/static/js/453.1c688882.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f34bc7.css",
+    "static/js/main.bf45d32c.js"
+  ]
+}
