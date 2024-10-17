@@ -10,22 +10,21 @@ import ContactoSocial from './pages/ContactoSocial';
 
 function App() {
   return (
-    <>
-      <Router>
-        <div className='app'>
-          <AsideMenu/>
-          <Routes>
-            <Route path="/ilustracion" element={<Ilustracion/>}/>
-            <Route path="/conceptArt" element={<ConceptArt/>}/>
-            <Route path="/retratos" element={<Retratos/>}/>
-            <Route path="/sketch" element={<Sketch/>}/>
-            <Route path="/sobre-mi" element={<SobreMi/>}/>
-            <Route path="/contacto-social" element={<ContactoSocial/>}/>
-            <Route path="/" element={<Navigate to="/ilustracion"/>}/>
-          </Routes>
-        </div>
-      </Router>
-    </>
+    <Router>
+      <div className='app'>
+        <AsideMenu />
+        <Routes>
+          <Route path="/ilustracion" element={<Ilustracion />} />
+          <Route path="/concept-art" element={<ConceptArt />} /> {/* Cambiado a kebab-case */}
+          <Route path="/retratos" element={<Retratos />} />
+          <Route path="/sketch" element={<Sketch />} />
+          <Route path="/sobre-mi" element={<SobreMi />} />
+          <Route path="/contacto-social" element={<ContactoSocial />} />
+          <Route path="/" element={<Navigate to="/ilustracion" />} />
+          <Route path="*" element={<Navigate to="/ilustracion" />} /> {/* Redirige a ilustración para rutas no encontradas */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
