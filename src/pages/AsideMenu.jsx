@@ -22,7 +22,6 @@ function AsideMenu() {
                 <li><NavLink to="/retratos" activeClassName="active">Retratos</NavLink></li>
                 <li><NavLink to="/sketch" activeClassName="active">Sketch</NavLink></li>
                 <li><NavLink to="/sobre-mi" activeClassName="active">Sobre mí</NavLink></li>
-                <li><NavLink to="/contacto-social" activeClassName="active">Contacto/Social</NavLink></li>
             </ul>
             </nav>
         </aside>
