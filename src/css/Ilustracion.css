@@ -1,7 +1,39 @@
 .contenedor {
     margin-left: 22vw;
-    padding: 20px;   
+    padding: 4vh;   
     height: 100vh;   
-    background-color: #f0f0f0; 
+    background-color: white; 
     overflow-y: auto; 
   } 
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block; 
+    width: 100%;
+    transition: filter 0.3s ease; 
+}
+
+.image-container:hover img {
+    filter: brightness(70%);
+}
+
+.image-title {
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: white; 
+  font: bold;
+  padding: 5px; 
+  border-radius: 5px; 
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+}
+
+.image-container:hover .image-title {
+    opacity: 1;
+}

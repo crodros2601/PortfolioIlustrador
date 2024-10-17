@@ -1,22 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.361804f7.css",
-    "main.js": "/static/js/main.bb73168b.js",
-    "static/js/453.1c688882.chunk.js": "/static/js/453.1c688882.chunk.js",
+    "main.css": "/static/css/main.14bbbfff.css",
+    "main.js": "/static/js/main.c9eae0db.js",
+    "static/js/453.f1c1c27f.chunk.js": "/static/js/453.f1c1c27f.chunk.js",
+    "static/media/taylor.png": "/static/media/taylor.dcc52e533ad9085b9e78.png",
+    "static/media/character.png": "/static/media/character.2d10546b3ff9dc51a919.png",
+    "static/media/tiana.png": "/static/media/tiana.a3fba59b0949dcd1cc7e.png",
+    "static/media/nanna.png": "/static/media/nanna.33a6235e0b5a1eaeaf0f.png",
+    "static/media/riven.png": "/static/media/riven.8ae5f2ba2e1cc9c5a4ce.png",
+    "static/media/ava.png": "/static/media/ava.4ce4de898c5c43d2941b.png",
+    "static/media/retrato7.png": "/static/media/retrato7.4ce4de898c5c43d2941b.png",
     "static/media/avatar-head.png": "/static/media/avatar-head.196847f1f49ab6e50fd2.png",
-    "static/media/avatar-full.png": "/static/media/avatar-full.a6b73b4cc5a5291a0f09.png",
-    "static/media/alaric.png": "/static/media/alaric.7651ecfc8f12da0dc4c4.png",
-    "static/media/sabrina.png": "/static/media/sabrina.85da45e3145753253f41.png",
+    "static/media/character2.png": "/static/media/character2.0fa2f382b38f410716ab.png",
+    "static/media/character1.png": "/static/media/character1.215013f834d7ee057b87.png",
+    "static/media/avatar-full.png": "/static/media/avatar-full.cec6752fb8551e45f027.png",
+    "static/media/retrato1.png": "/static/media/retrato1.3a6549551db74f0a529d.png",
+    "static/media/retrato3.png": "/static/media/retrato3.bfc1f64e92bf65e1dcba.png",
+    "static/media/retrato5.png": "/static/media/retrato5.10eb6bdff5e355748b75.png",
+    "static/media/concept1.png": "/static/media/concept1.55b92b46515c803b7be2.png",
+    "static/media/retrato6.png": "/static/media/retrato6.5f4c5069661f648516bf.png",
     "static/media/Comfortaa-Regular.ttf": "/static/media/Comfortaa-Regular.886fcced57daea5944e7.ttf",
+    "static/media/sketch1.png": "/static/media/sketch1.065ff2fa043d1232c75a.png",
+    "static/media/concept3.png": "/static/media/concept3.b6124ab2fa8019ec6408.png",
+    "static/media/retrato4.png": "/static/media/retrato4.80e6410f72c246f4dd03.png",
+    "static/media/retrato2.png": "/static/media/retrato2.20d63adc8bc8c3f03f6e.png",
+    "static/media/concept2.png": "/static/media/concept2.801c7592d858ad76ab97.png",
+    "static/media/sketch4.png": "/static/media/sketch4.eaab5ae0443b56d40bbd.png",
+    "static/media/sketch2.png": "/static/media/sketch2.11861b2f0de669747614.png",
     "static/media/SophiaFrancesca.ttf": "/static/media/SophiaFrancesca.803d6bf916c719f3dd08.ttf",
-    "static/media/ref.jpg": "/static/media/ref.ee110076821ed75a02ad.jpg",
+    "static/media/sketch3.png": "/static/media/sketch3.cc445a26d71b02f73c48.png",
     "index.html": "/index.html",
-    "main.361804f7.css.map": "/static/css/main.361804f7.css.map",
-    "main.bb73168b.js.map": "/static/js/main.bb73168b.js.map",
-    "453.1c688882.chunk.js.map": "/static/js/453.1c688882.chunk.js.map"
+    "main.14bbbfff.css.map": "/static/css/main.14bbbfff.css.map",
+    "main.c9eae0db.js.map": "/static/js/main.c9eae0db.js.map",
+    "453.f1c1c27f.chunk.js.map": "/static/js/453.f1c1c27f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.361804f7.css",
-    "static/js/main.bb73168b.js"
+    "static/css/main.14bbbfff.css",
+    "static/js/main.c9eae0db.js"
   ]
 }

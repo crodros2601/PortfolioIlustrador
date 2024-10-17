@@ -1,6 +1,6 @@
 import './App.css';
 import AsideMenu from './pages/AsideMenu';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Ilustracion from './pages/Ilustracion';
 import ConceptArt from './pages/ConceptArt';
 import Retratos from './pages/Retratos';
@@ -21,7 +21,7 @@ function App() {
             <Route path="/sketch" element={<Sketch/>}/>
             <Route path="/sobre-mi" element={<SobreMi/>}/>
             <Route path="/contacto-social" element={<ContactoSocial/>}/>
-            <Route path="/" element={<Ilustracion/>}/>
+            <Route path="/" element={<Navigate to="/ilustracion"/>}/>
           </Routes>
         </div>
       </Router>

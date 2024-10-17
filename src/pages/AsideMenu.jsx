@@ -2,7 +2,7 @@ import React from 'react';
 import avatarHead from '../assets/img/avatar-head.png';
 import avatarFull from '../assets/img/avatar-full.png'; 
 import '../css/AsideMenu.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function AsideMenu() {
   return (
@@ -16,14 +16,14 @@ function AsideMenu() {
             <h1>KarmelArtem</h1>
           </div>
             <nav>
-                <ul>
-                    <li><Link to="/ilustracion">Ilustración</Link></li>
-                    <li><Link to="/conceptArt">Concept Art</Link></li>
-                    <li><Link to="/retratos">Retratos</Link></li>
-                    <li><Link to="/sketch">Sketch</Link></li>
-                    <li><Link to="/sobre-mi">Sobre mí</Link></li>
-                    <li><Link to="/contacto-social">Contacto/Social</Link></li>
-                </ul>
+            <ul>
+                <li><NavLink to="/ilustracion" activeClassName="active">Ilustración</NavLink></li>
+                <li><NavLink to="/conceptArt" activeClassName="active">Concept Art</NavLink></li>
+                <li><NavLink to="/retratos" activeClassName="active">Retratos</NavLink></li>
+                <li><NavLink to="/sketch" activeClassName="active">Sketch</NavLink></li>
+                <li><NavLink to="/sobre-mi" activeClassName="active">Sobre mí</NavLink></li>
+                <li><NavLink to="/contacto-social" activeClassName="active">Contacto/Social</NavLink></li>
+            </ul>
             </nav>
         </aside>
     </>
