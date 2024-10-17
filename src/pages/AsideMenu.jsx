@@ -17,11 +17,12 @@ function AsideMenu() {
           </div>
             <nav>
             <ul>
-                <li><Link to="/ilustracion" activeClassName="active">Ilustración</Link></li>
-                <li><Link to="/conceptArt" activeClassName="active">Concept Art</Link></li>
-                <li><Link to="/retratos" activeClassName="active">Retratos</Link></li>
-                <li><Link to="/sketch" activeClassName="active">Sketch</Link></li>
-                <li><Link to="/sobre-mi" activeClassName="active">Sobre mí</Link></li>
+                <li><NavLink to="/ilustracion" activeClassName="active">Ilustración</NavLink></li>
+                <li><NavLink to="/conceptArt" activeClassName="active">Concept Art</NavLink></li>
+                <li><NavLink to="/retratos" activeClassName="active">Retratos</NavLink></li>
+                <li><NavLink to="/sketch" activeClassName="active">Sketch</NavLink></li>
+                <li><NavLink to="/sobre-mi" activeClassName="active">Sobre mí</NavLink></li>
+                <li><NavLink to="/contacto-social" activeClassName="active">Contacto/Social</NavLink></li>
             </ul>
             </nav>
         </aside>
