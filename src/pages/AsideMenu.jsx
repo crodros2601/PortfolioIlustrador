@@ -2,12 +2,9 @@ import React from 'react';
 import avatarHead from '../assets/img/avatar-head.png';
 import avatarFull from '../assets/img/avatar-full.png'; 
 import '../css/AsideMenu.css';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function AsideMenu() {
-
-  const location = useLocation();
-
   return (
     <>  
         <aside className='asideMenu'>
@@ -20,16 +17,8 @@ function AsideMenu() {
           </div>
             <nav>
             <ul>
-                <li>
-                <NavLink 
-                  to="/ilustracion" 
-                  className={({ isActive }) => 
-                    isActive || location.pathname === "/" ? "active" : ""
-                  }
-                >
-                  Ilustración
-                </NavLink>
-              </li>
+              
+                <li><NavLink to="/" activeClassName="active">Ilustración</NavLink></li>
                 <li><NavLink to="/conceptArt" activeClassName="active">Concept Art</NavLink></li>
                 <li><NavLink to="/retratos" activeClassName="active">Retratos</NavLink></li>
                 <li><NavLink to="/sketch" activeClassName="active">Sketch</NavLink></li>

@@ -15,7 +15,6 @@ function App() {
         <div className='app'>
           <AsideMenu/>
           <Routes>
-            <Route path="/ilustracion" element={<Ilustracion/>}/>
             <Route path="/conceptArt" element={<ConceptArt/>}/>
             <Route path="/retratos" element={<Retratos/>}/>
             <Route path="/sketch" element={<Sketch/>}/>
