@@ -22,6 +22,7 @@ function App() {
             <Route path="/sobre-mi" element={<SobreMi/>}/>
             <Route path="/contacto-social" element={<ContactoSocial/>}/>
             <Route path="/" element={<Navigate to="/ilustracion"/>}/>
+            <Route path="*" element={<div>404 Not Found jajaja</div>} />
           </Routes>
         </div>
       </Router>
