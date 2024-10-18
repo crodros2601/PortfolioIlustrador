@@ -1,6 +1,6 @@
 import './App.css';
 import AsideMenu from './components/AsideMenu';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Ilustracion from './components/Ilustracion';
 import ConceptArt from './components/ConceptArt';
 import Retratos from './components/Retratos';
@@ -13,14 +13,14 @@ function App() {
     <>
       <Router>
         <div className='app'>
-          <AsideMenu />
+          <AsideMenu/>
           <Routes>
-            <Route path="/conceptArt" element={<ConceptArt />} />
-            <Route path="/retratos" element={<Retratos />} />
-            <Route path="/sketch" element={<Sketch />} />
-            <Route path="/sobre-mi" element={<SobreMi />} />
-            <Route path="/contacto-social" element={<ContactoSocial />} />
-            <Route path="/" element={<Ilustracion />} />
+            <Route path="/conceptArt" element={<ConceptArt/>}/>
+            <Route path="/retratos" element={<Retratos/>}/>
+            <Route path="/sketch" element={<Sketch/>}/>
+            <Route path="/sobre-mi" element={<SobreMi/>}/>
+            <Route path="/contacto-social" element={<ContactoSocial/>}/>
+            <Route path="/" element={<Ilustracion/>}/>
           </Routes>
         </div>
       </Router>
