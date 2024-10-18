@@ -1,12 +1,13 @@
 import './App.css';
-import AsideMenu from './pages/AsideMenu';
+import AsideMenu from './components/AsideMenu';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Ilustracion from './pages/Ilustracion';
-import ConceptArt from './pages/ConceptArt';
-import Retratos from './pages/Retratos';
-import Sketch from './pages/Sketch';
-import SobreMi from './pages/SobreMi';
-import ContactoSocial from './pages/ContactoSocial';
+import Ilustracion from './components/Ilustracion';
+import ConceptArt from './components/ConceptArt';
+import Retratos from './components/Retratos';
+import Sketch from './components/Sketch';
+import SobreMi from './components/SobreMi';
+import ContactoSocial from './components/ContactoSocial';
+
 
 function App() {
   return (
