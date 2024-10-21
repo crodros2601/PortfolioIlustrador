@@ -1,0 +1,32 @@
+.sobre-mi-contenedor {
+    display: flex;
+    margin-left: 22vw;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    padding: 20px; 
+    background-color: #f9f9f9;
+  }
+  
+  .foto-perfil {
+    width: 200px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+  }
+  
+  .bio {
+    text-align: center; 
+    max-width: 30vw;
+    line-height: 1.6;
+  }
+  
+  .bio h2 {
+    color: #333; 
+    margin-bottom: 10px; 
+  }
+  
+  .bio p {
+    color: #555;
+  }

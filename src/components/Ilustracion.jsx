@@ -1,4 +1,3 @@
-  // src/pages/Ilustracion.js
   import React, { useEffect, useState } from 'react';
   import '../css/Ilustracion.css';
 
@@ -35,7 +34,12 @@
       id: 8,
       image: require('../assets/img/ilustracion/tiana.png'),
     },
+    {
+      id: 9,
+      image: require('../assets/img/ilustracion/arwen.png'),
+    }
   ];
+  
 
   const artwork1 = artworks.find(artwork => artwork.id === 1);
   const artwork2 = artworks.find(artwork => artwork.id === 2);
@@ -45,6 +49,7 @@
   const artwork6 = artworks.find(artwork => artwork.id === 6);
   const artwork7 = artworks.find(artwork => artwork.id === 7);
   const artwork8 = artworks.find(artwork => artwork.id === 8);
+  const artwork9 = artworks.find(artwork => artwork.id === 9);
 
   function Ilustracion() {
 
@@ -60,6 +65,10 @@
                 <div className='image-container'>
                     <img src={artwork2.image} alt={`Imagen ${artwork2.id}`} />
                     <div className='image-title'>Imagen {artwork2.id}</div>
+                </div>
+                <div className='image-container'>
+                    <img src={artwork9.image} alt={`Imagen ${artwork9.id}`} />
+                    <div className='image-title'>Imagen {artwork9.id}</div>
                 </div>
             </div>
 
