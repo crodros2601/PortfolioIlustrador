@@ -37,3 +37,19 @@
 .image-container:hover .image-title {
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .contenedor {
+      margin-left: 0;
+      padding-top: 100px;
+  }
+
+  .row {
+      flex-direction: column; 
+  }
+
+  .column {
+      flex: 1 0 100%;
+      padding: 0;
+  }
+}

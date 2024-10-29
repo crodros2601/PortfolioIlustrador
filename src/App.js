@@ -1,6 +1,6 @@
 import './App.css';
 import AsideMenu from './components/AsideMenu';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Ilustracion from './components/Ilustracion';
 import ConceptArt from './components/ConceptArt';
 import Retratos from './components/Retratos';
