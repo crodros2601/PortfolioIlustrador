@@ -1,17 +1,17 @@
 .contenedor {
-    margin-left: 22vw; /* Esto asegura que el contenido no se superponga al menú */
+    margin-left: 22vw;
     padding: 4vh;   
     height: 100vh;   
     background-color: white; 
     overflow-y: auto; 
-    z-index: 1; /* Asegura que esté por debajo del menú */
-    position: relative; /* Para asegurar que el z-index funcione */
+    z-index: 1; 
+    position: relative;
 }
 
 .image-container {
     position: relative;
-    overflow: hidden; /* Esto asegura que las imágenes no se salgan de su contenedor */
-    z-index: 1; /* Asegúrate que esté por debajo del menú */
+    overflow: hidden; 
+    z-index: 1; 
 }
 
 .image-container img {
@@ -44,9 +44,9 @@
 @media (max-width: 768px) {
     .contenedor {
         margin-left: 0;
-        padding-top: 100px; /* Ajusta este valor si es necesario */
-        height: calc(100vh - 100px); /* Ajusta para no sobrepasar la vista */
-        overflow-y: auto; /* Asegúrate de que esto esté configurado */
+        padding-top: 100px; 
+        height: calc(100vh - 100px);
+        overflow-y: auto;
     }
 
   .row {
