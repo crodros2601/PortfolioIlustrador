@@ -11,23 +11,32 @@ function AsideMenu() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+    document.body.classList.remove('body-menu-open');
+    document.body.style.overflow = 'auto';
+  };
+
   useEffect(() => {
     if (isMenuOpen) {
       document.body.classList.add('body-menu-open');
+      document.body.style.overflow = 'hidden';
     } else {
       document.body.classList.remove('body-menu-open');
+      document.body.style.overflow = 'auto';
     }
   }, [isMenuOpen]);
 
   return (
     <>
       {/* Menú hamburguesa visible solo en móviles */}
-      <div className='burger-menu' onClick={toggleMenu}>
-        <div className='burger-line'></div>
-        <div className='burger-line'></div>
-        <div className='burger-line'></div>
+      <div className={`contenedorBurger ${isMenuOpen ? 'hidden' : ''}`}>
+        <div className='burger-menu' onClick={toggleMenu}>
+          <div className='burger-line'></div>
+          <div className='burger-line'></div>
+          <div className='burger-line'></div>
+        </div>
       </div>
-
       <aside className={`asideMenu ${isMenuOpen ? 'open' : ''}`}>
         <div className='perfilContenedor'>
           <div className='perfilImgContenedor'>
@@ -36,20 +45,31 @@ function AsideMenu() {
           </div>
           <h1>KarmelArtem</h1>
         </div>
-        
-        {/* Botón de cerrar el menú */}
+
         <div className='close-button' onClick={toggleMenu}>
-          &times; {/* Este símbolo representa la "X" */}
+          &times;
         </div>
 
         <nav>
           <ul>
-            <li><NavLink to="/" activeClassName="active">Ilustración</NavLink></li>
-            <li><NavLink to="/conceptArt" activeClassName="active">Concept Art</NavLink></li>
-            <li><NavLink to="/retratos" activeClassName="active">Retratos</NavLink></li>
-            <li><NavLink to="/sketch" activeClassName="active">Sketch</NavLink></li>
-            <li><NavLink to="/sobre-mi" activeClassName="active">Sobre mí</NavLink></li>
-            <li><NavLink to="/contacto-social" activeClassName="active">Contacto/Social</NavLink></li>
+            <li>
+              <NavLink to="/" activeClassName="active" onClick={closeMenu}>Ilustración</NavLink>
+            </li>
+            <li>
+              <NavLink to="/conceptArt" activeClassName="active" onClick={closeMenu}>Concept Art</NavLink>
+            </li>
+            <li>
+              <NavLink to="/retratos" activeClassName="active" onClick={closeMenu}>Retratos</NavLink>
+            </li>
+            <li>
+              <NavLink to="/sketch" activeClassName="active" onClick={closeMenu}>Sketch</NavLink>
+            </li>
+            <li>
+              <NavLink to="/sobre-mi" activeClassName="active" onClick={closeMenu}>Sobre mí</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contacto-social" activeClassName="active" onClick={closeMenu}>Contacto/Social</NavLink>
+            </li>
           </ul>
         </nav>
       </aside>
