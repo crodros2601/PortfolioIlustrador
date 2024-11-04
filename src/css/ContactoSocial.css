@@ -1,14 +1,16 @@
 .contacto-social {
     display: flex;
     margin-left: 22vw;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    height: 100vh; 
-    padding: 20px; 
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
     background-color: #f9f9f9;
     font-size: 2rem;
     color: black;
+    position: relative;
+    z-index: 1;
 }
 
 .social-icons {
@@ -21,4 +23,32 @@
 .icon {
     width: 60px;
     height: auto;
+}
+@media (max-width: 768px) {
+    .contacto-social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin: 0; 
+        padding: 20px;
+        height: 80vh;
+        font-size: 3rem; 
+        text-align: center;
+    }
+
+    .social-icons {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px;
+    }
+
+    .icon {
+        width: 15vw;
+    }
+
+    .contacto-social h2 {
+        font-size: 10vw;
+        margin-bottom: 20px;
+    }
 }

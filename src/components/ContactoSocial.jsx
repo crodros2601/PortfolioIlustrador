@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/ContactoSocial.css';
 import tiktok from '../assets/img/icon/tik-tok.png';
-import instagram from '../assets/img/icon/instagram.png'; 
+import instagram from '../assets/img/icon/instagram.png';   
 import emailIcon from '../assets/img/icon/correo-electronico.png'; 
 
 function ContactoSocial() {

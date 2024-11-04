@@ -31,3 +31,33 @@
   .bio p {
     color: black;
   }
+
+  @media (max-width: 768px) {
+    .sobre-mi-contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin: 0 auto;
+        height: 75Vh; 
+    }
+
+    .bio {
+        max-width: 90vw;
+        font-size: 4.5vw;
+        padding: 0 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .foto-perfil {
+        width: 40vw;
+        margin-bottom: 10px;
+        align-self: center;
+    }
+
+    .bio h2 {
+        font-size: 6vw;
+        margin-top: 0;
+    }
+}
